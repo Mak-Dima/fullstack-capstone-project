@@ -34,7 +34,6 @@ const handleRegister = async () => {
         }
         if (json.error) {
             setShowerr(json.error);
-            setShowerr(<div className="text-danger">{showerr}</div>)
         }
         
     }catch (e) {
